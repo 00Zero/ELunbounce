@@ -1,52 +1,53 @@
       <div id="sign-up-form-wrapper" >
-        <form name="signup-form" enctype="multipart/form-data" action="http://emprego:Ctel_Fykkb9ta!@saga.staging.empregoligado.com.br/landing-page/create" method="post" id="signup-form" accept-charset="UTF-8">
+        <form name="signup-form" enctype="multipart/form-data" action="http://empregoligado.com.br/landing-page/create" method="post" id="signup-form" accept-charset="UTF-8">
+
 
 <!--CAMPO NOME-->
               <div>
-                <label for="name">Nome completo <span title="Este campo é obrigatório.">*</span></label>
-                <input type="text" id="name" name="name" value="" size="60" maxlength="255" style="width: 300px;">
+                <label class="bold" for="name">Nome completo <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+                <input type="text" id="name" name="name" value="" size="60" maxlength="255" style="width: 290px;">
               </div>
 
 <!--CAMPO CELULAR-->
             <div>
-              <label for="phone">Número de celular <span class="form-required" title="Este campo é obrigatório.">*</span></label>
-              <input type="tel" id="phone" name="phone" value="" size="60" maxlength="11" style="width: 150px;">
+              <label class="bold" for="phone">Número de celular <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+              <input type="tel" id="phone" name="phone" value="" size="60" maxlength="15" style="width: 150px;">
               <div class="description">Ex: (11) 99999-9999</div>
             </div>
 
 <!--CAMPO SENHA-->
             <div>
-              <label for="password">Crie uma senha <span class="form-required" title="Este campo é obrigatório.">*</span></label>
-              <input type="password" id="edit-pass" name="password" size="60" maxlength="50" style="width: 300px;">
+              <label class="bold" for="password">Crie uma senha <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+              <input type="password" id="edit-pass" name="password" size="60" maxlength="50" style="width: 290px;">
               <div class="description">No mínimo 5 caracteres</div>
             </div>
 
 <!--CAMPO EMAIL-->
             <div>
-              <label for="email">Email </label>
-              <input type="email" id="email" name="email" value="" size="60" maxlength="128" class="form-text" style="width: 300px;"/>
+              <label class="bold" for="email">Email </label>
+              <input type="email" id="email" name="email" value="" size="60" maxlength="128" class="form-text" style="width: 290px;"/>
             </div>
 
 <!--CAMPO CPF-->
             <div>
-              <label for="cpf">Número de CPF </label>
-              <input type="number" id="cpf" name="cpf" value="" size="60" maxlength="11" style="width: 150px;"/>
+              <label class="bold" for="cpf">Número de CPF </label>
+              <input type="text" id="cpf" name="cpf" value="" size="60" maxlength="14" style="width: 150px;"/>
             </div>
 
 <!--CAMPO CEP-->
           <div>
-            <label for="cep">CEP (8 dígitos) <span class="form-required" title="Este campo é obrigatório.">*</span></label>
-            <input type="number" id="cep" name="cep" value="" size="60" maxlength="8" style="width: 150px;"/>
+            <label class="bold" for="cep">CEP (8 dígitos) <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+            <input type="text" id="cep" name="cep" value="" size="60" maxlength="9" style="width: 150px;"/>
           </div>
          
 <!--CAMPO DATA NASCIMENTO-->
-                <fieldset>
-                  <legend>Data de nascimento <span class="form-required">*</span></legend>
+                <fieldset class="birthday-wrapper">
+                  <legend class="bold">Data de nascimento <span class="form-required">*</span></legend>
                   <div>
                     <div>
-                      <label for="dob_month">Mes</label>
+                      <label class="small" for="dob_month">Mês</label>
                       <select id="dob_month" name="dob_month">
-                        <option value="" selected="selected">-Mês</option>
+                        <option value="" selected="selected">Selecione</option>
                         <option value="1">jan</option>
                         <option value="2">fev</option>
                         <option value="3">mar</option>
@@ -62,9 +63,9 @@
                       </select>
                     </div>
                     <div>
-                      <label for="dob_day">Dia</label>
+                      <label class="small" for="dob_day">Dia</label>
                       <select id="dob_day" name="dob_day">
-                        <option value="" selected="selected">-Dia</option>
+                        <option value="" selected="selected">Selecione</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -99,9 +100,9 @@
                       </select>
                     </div>
                     <div>
-                      <label for="dob_year">Ano</label>
+                      <label class="small" for="dob_year">Ano</label>
                       <select id="dob_year" name="dob_year">
-                        <option value="" selected="selected">-Ano</option>
+                        <option value="" selected="selected">Selecione</option>
                         <option value="1954">1954</option>
                         <option value="1955">1955</option>
                         <option value="1956">1956</option>
@@ -161,12 +162,12 @@
 
 <!--CAMPO INTERESSE-->
                 <fieldset>
-                  <legend>Area de Interesse 1 <span class="form-required">*</span></legend>
+                  <legend class="bold">Area de Interesse 1 <span class="form-required">*</span></legend>
                     <div>
                       <div>
-                        <label for="category_1">Categoria</label>
+                        <label class="small" for="category_1">Categoria</label>
                         <select id="category_1" name="category_1">
-                        <option value="" selected="selected">- Selecione -</option>
+                        <option value="" selected="selected">Selecione</option>
                         <option value="1">Telemarketing</option>
                         <option value="4">Administrativo</option>
                         <option value="13">Vendas</option>
@@ -180,15 +181,15 @@
                       </select>
                       </div>
                       <div>
-                        <label for="position_1">Posicao</label>
+                        <label class="small" for="position_1">Posição</label>
                         <select id="position_1" name="position_1" disabled="disabled">
-                          <option value="" selected="selected">- Selecione -</option>
+                          <option value="" selected="selected">Selecione</option>
                         </select>
                       </div>
                       <div>
-                        <label for="experience_1">Experiencia</label>
+                        <label class="small" for="experience_1">Experiência</label>
                         <select id="experience_1" name="experience_1" disabled="disabled">
-                          <option value="" selected="selected">- Selecione -</option>
+                          <option value="" selected="selected">Selecione</option>
                           <option value="0">0</option>
                           <option value="0.5">6 meses</option>
                           <option value="1">1 ano</option>
@@ -202,12 +203,12 @@
                   </fieldset>
 
                   <fieldset>
-                    <legend>Area de Interesse 2 </legend>
+                    <legend class="bold">Area de Interesse 2 </legend>
                       <div>
                         <div>
-                          <label for="category_2">Categoria</label>
+                          <label class="small" for="category_2">Categoria</label>
                           <select id="category_2" name="category_2">
-                          <option value="" selected="selected">- Selecione -</option>
+                          <option value="" selected="selected">Selecione</option>
                           <option value="1">Telemarketing</option>
                           <option value="4">Administrativo</option>
                           <option value="13">Vendas</option>
@@ -221,15 +222,15 @@
                         </select>
                         </div>
                         <div>
-                          <label for="position_2">Posicao</label>
+                          <label class="small" for="position_2">Posição</label>
                           <select id="position_2" name="position_2" disabled="disabled">
-                            <option value="" selected="selected">- Selecione -</option>
+                            <option value="" selected="selected">Selecione</option>
                           </select>
                         </div>
                         <div>
-                          <label for="experience_2">Experiencia</label>
+                          <label class="small" for="experience_2">Experiência</label>
                           <select id="experience_2" name="experience_2" disabled="disabled">
-                            <option value="" selected="selected">- Selecione -</option>
+                            <option value="" selected="selected">Selecione</option>
                             <option value="0">0</option>
                             <option value="0.5">6 meses</option>
                             <option value="1">1 ano</option>
@@ -243,13 +244,13 @@
                     </fieldset>
 
 
-                    <fieldset>
-                      <legend>Area de Interesse 3 </legend>
+                    <fieldset class="third-area">
+                      <legend class="bold">Area de Interesse 3 </legend>
                         <div>
                           <div>
-                            <label for="category_3">Categoria</label>
+                            <label class="small" for="category_3">Categoria</label>
                             <select id="category_3" name="category_3">
-                            <option value="" selected="selected">- Selecione -</option>
+                            <option value="" selected="selected">Selecione</option>
                             <option value="1">Telemarketing</option>
                             <option value="4">Administrativo</option>
                             <option value="13">Vendas</option>
@@ -263,15 +264,15 @@
                           </select>
                           </div>
                           <div>
-                            <label for="position_3">Posicao</label>
+                            <label class="small" for="position_3">Posição</label>
                             <select id="position_3" name="position_3" disabled="disabled">
-                              <option value="" selected="selected">- Selecione -</option>
+                              <option value="" selected="selected">Selecione</option>
                             </select>
                           </div>
                           <div>
-                            <label for="experience_3">Experiencia</label>
+                            <label class="small" for="experience_3">Experiência</label>
                             <select id="experience_3" name="experience_3" disabled="disabled">
-                              <option value="" selected="selected">- Selecione -</option>
+                              <option value="" selected="selected">Selecione</option>
                               <option value="0">0</option>
                               <option value="0.5">6 meses</option>
                               <option value="1">1 ano</option>
@@ -287,16 +288,17 @@
 
 <!--CAMPO SALARIO-->
             <div>
-              <label for="salary">Pretensão salarial </label>
+              <label class="bold" for="salary">Pretensão salarial </label>
               <span>R$</span>
-              <input type="number" id="salary" name="salary" value="" size="60" maxlength="4" style="width: 100px;"/>
+              <input type="text" id="salary" name="salary" value="" size="60" maxlength="5" style="width: 80px;"/>
             </div>
 
 <!--CAMPO ESCOLARIDADE-->
             <div>
-              <label for="education">Grau de escolaridade <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+              <label class="bold" for="education">Grau de escolaridade <span class="form-required" title="Este campo é obrigatório.">*</span></label>
               <select id="education" name="education">
-                <option value="0" selected="selected">Nenhum</option>
+                <option value="" selected="selected">Selecione</option>
+                <option value="0">Nenhum</option>
                 <option value="1">Primário</option>
                 <option value="2">Fundamental</option>
                 <option value="3">Médio cursando</option>
@@ -308,16 +310,17 @@
 
 <!--CAMPO SEXO-->
           <div>
-            <label for="sex">Sexo <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+            <label class="bold" for="sex">Sexo <span class="form-required" title="Este campo é obrigatório.">*</span></label>
             <select id="sex" name="sex">
+              <option value="" selected="selected">Selecione</option>
               <option value="0">Masculino</option>
               <option value="1">Feminino</option>
             </select>
           </div>
 
 <!--CAMPO CARTEIRA MOTORISTA-->
-            <div>
-              <label>Você tem Carteira de Motorista? Se sim, qual?</label>
+            <div class="driver-license">
+              <label class="bold">Você tem Carteira de Motorista?<br>Se sim, qual?</label>
               <div>
                 <input type="checkbox" id="driver_license_a" name="driver_license[]" value="A" />
                 <label for="driver_license_1">A - Motos </label>
@@ -353,6 +356,10 @@
 
 
 <script type="text/javascript" language="javascript">
+  Number.prototype.format = function(n, x) {
+    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&.');
+  };
 
   document.addEventListener("DOMContentLoaded", function(event) {
     var basicUrl = document.forms['signup-form'].action;
@@ -447,7 +454,7 @@
   $('#category_1').change(function() {
     $('#position_1').removeAttr('disabled');
     $('#position_1').empty();
-    $('#position_1').append("<option value=''>- Selecione -</option>");
+    $('#position_1').append("<option value=''>Selecione</option>");
     $('#experience_1').removeAttr('disabled');
     $('#experience_1').val("");
     
@@ -466,16 +473,20 @@
   });
   
   $('#category_2').change(function() {
+    var nextItem = $('.third-area');
     $('#position_2').removeAttr('disabled');
     $('#position_2').empty();
-    $('#position_2').append("<option value=''>- Selecione -</option>");
+    $('#position_2').append("<option value=''>Selecione</option>");
     $('#experience_2').removeAttr('disabled');
     $('#experience_2').val("");
     
+    
     if ($('#category_2').val() == "") {
+      nextItem.hide();
       $('#position_2').attr('disabled', 'disabled');
       $('#experience_2').attr('disabled', 'disabled');
     } else {
+      nextItem.show();
       $.each(jobs, function(index, item) {
         var selectedCategory = $('#category_2').val();
       
@@ -489,7 +500,7 @@
   $('#category_3').change(function() {
     $('#position_3').removeAttr('disabled');
     $('#position_3').empty();
-    $('#position_3').append("<option value=''>- Selecione -</option>");
+    $('#position_3').append("<option value=''>Selecione</option>");
     $('#experience_3').removeAttr('disabled');
     $('#experience_3').val("");
     
@@ -515,5 +526,36 @@
     };
     window.name = JSON.stringify(data);
   });
+  
+  function getAndroidVersion(ua) {
+    ua = (ua || navigator.userAgent).toLowerCase(); 
+    var match = ua.match(/android\s([0-9\.]*)/);
+    return match ? match[1] : false;
+  };
+  
+  function applyMask(){
+    var masks = ['(00) 00000-0000', '(00) 0000-00009'],
+      maskBehavior = function(val, e, field, options) {
+      return val.length > 14 ? masks[0] : masks[1];
+    };
+    
+    $('#phone').mask(maskBehavior, {onKeyPress: 
+       function(val, e, field, options) {
+           field.mask(maskBehavior(val, e, field, options), options);
+       }
+    });
+    
+    
+    $("#cpf").mask("000.000.000-00");
+    $("#cep").mask("00000-000");
+    
+    $('#salary').maskMoney({precision: 0, thousands: "."});
+  }
+  
+  if(!getAndroidVersion() || parseInt(getAndroidVersion()) > 3) {
+    applyMask();
+  } else {
+    $("#cpf, #cep, #salary, #phone").attr('type', 'number');
+  }
 
 </script>
