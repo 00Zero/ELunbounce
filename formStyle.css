@@ -1,0 +1,53 @@
+<style type="text/css">
+  .bold { font-weight: bold; margin-bottom: 1px }
+  #signup-form > div, #signup-form > fieldset { margin-bottom: 10px }
+#signup-form div input[type=text],#signup-form div input[type=password], #signup-form div input[type=number], #signup-form div input[type=email], #signup-form div input[type=tel] { width: 300px; padding: 4px; background: #FFF; border-radius: 3px; border: 1px solid silver }
+.birthday-wrapper div div { float: left; margin-right: 10px; } 
+.small { text-transform: uppercase; font-size: 11px; }
+.third-area { display: none }
+  .driver-license div { width: 150px; float: left; margin-bottom: 0 !important; margin-top: 5px; }
+  .driver-license label { display: inline-block; margin-left: 2px; }
+  #edit-terms {clear: both; padding-top: 10px }
+  #edit-terms label { width: 290px; font-size: 13px; }
+  fieldset div div { margin-bottom: 8px }
+  /* center and style button */
+  #signup-form label { display: block; }
+  #signup-form .driver-license label { display: inline-block !important; }
+  #edit-submit { 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #74C043;
+    padding: 10px 20px;
+    margin-left: 102px;
+    background: #6cb706;
+    border-radius: 5px;
+    font-family: din,Arial,sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    -moz-transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s
+  }
+  
+  #edit-submit:hover {
+    opacity: 0.6
+  }
+  
+  #block-block-6 {
+    font-size: 11px;
+    padding: 15px 0;
+  }
+  
+  #block-block-6 a {
+    color: #e83600;
+  }
+  
+  #block-block-6 a:hover {
+    opacity: 0.5;
+  }
+  
+  .form-required {
+    color: red;
+  }
+</style>
