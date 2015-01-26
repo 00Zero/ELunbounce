@@ -38,3 +38,24 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 </script>
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1456018767983074&amp;ev=PixelInitialized" />
 </noscript>
+
+<!-- AdWords Remarketing tag, Location: Before Body End Tag...do we need this???? -->
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1004776907;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1004776907/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
