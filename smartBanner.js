@@ -9,7 +9,7 @@
     inGooglePlay: 'Google Play', // Text of price for Android
     inWindowsStore: 'In the Windows Store', // Text of price for Windows
     GooglePlayParams: 'utm_source=unbounce-popup', // Aditional parameters for the market
-    icon: 'https://lh5.googleusercontent.com/-unMmxMLF4fk/AAAAAAAAAAI/AAAAAAAAAAA/ODvEPxQJFvk/s32-c/photo.jpg', // The URL of the icon (defaults to <meta name="apple-touch-icon">)
+    icon: 'https://lh3.ggpht.com/s6ZxMdRgeA_O8OPXJqrG_lWsviZiGTwjHE4gEAu4corVhC3WZdRdOrsQQqBziM1crF0', // The URL of the icon (defaults to <meta name="apple-touch-icon">)
     iconGloss: null, // Force gloss effect for iOS even for precomposed
     button: 'BAIXAR', // Text for the install button
     scale: 'auto', // Scale based on viewport size (set to 1 to disable)
