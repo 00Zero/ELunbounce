@@ -22,7 +22,7 @@
 #smartbanner.android .sb-close:active { color:#eee; }
 #smartbanner.android .sb-info { color:#000000; }
 #smartbanner.android .sb-info strong { color:#000000; }
-#smartbanner.android .sb-button { min-width: 12%; border:1px solid #DDDCDC; padding:1px 1px; color:#fff; background: none; border-radius: 0; box-shadow: none; min-height:26px}
+#smartbanner.android .sb-button { min-width: 12%; border:1px solid #DDDCDC; color:#fff; background: none; border-radius: 2px; box-shadow: none; min-height:26px}
 #smartbanner.android .sb-button span { text-align: center; display: block; padding: 1px 10px; background-color: #74C043; text-transform:none; text-shadow:none; box-shadow:none; }
 #smartbanner.android .sb-button:active, #smartbanner.android .sb-button:hover { background: none; }
 #smartbanner.android .sb-button:active span, #smartbanner.android .sb-button:hover span { background:#2AC7E1; }
