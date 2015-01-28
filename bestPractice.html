@@ -4,7 +4,7 @@
 
 <!--CAMPO ESCOLARIDADE-->
             <div>
-              <label class="bold" for="education">Grau de escolaridade <span class="form-required" title="Este campo é obrigatório.">*</span></label>
+              <label class="bold" for="education">Qual é o seu nível de escolaridade? <span class="form-required" title="Este campo é obrigatório.">*</span></label>
               <select id="education" name="education">
                 <option value="" selected="selected">Selecione</option>
                 <option value="0">Nenhum</option>
@@ -19,10 +19,10 @@
 
 <!--CAMPO INTERESSE-->
                 <fieldset>
-                  <legend class="bold">Area de Interesse 1 <span class="form-required">*</span></legend>
+                  <legend class="bold">Em qual área você gostaria de trabalhar? <span class="form-required">*</span></legend>
                     <div>
                       <div>
-                        <label class="small" for="category_1">Categoria</label>
+                        <label class="small" for="category_1">Área</label>
                         <select id="category_1" name="category_1">
                         <option value="" selected="selected">Selecione</option>
                         <option value="1">Telemarketing</option>
@@ -38,13 +38,13 @@
                       </select>
                       </div>
                       <div>
-                        <label class="small" for="position_1">Posição</label>
+                        <label class="small" for="position_1">Cargo</label>
                         <select id="position_1" name="position_1" disabled="disabled">
                           <option value="" selected="selected">Selecione</option>
                         </select>
                       </div>
                       <div>
-                        <label class="small" for="experience_1">Experiência</label>
+                        <label class="small" for="experience_1">Quanto tempo de experiência?</label>
                         <select id="experience_1" name="experience_1" disabled="disabled">
                           <option value="" selected="selected">Selecione</option>
                           <option value="0">0</option>
@@ -60,10 +60,10 @@
                   </fieldset>
 
                   <fieldset>
-                    <legend class="bold">Area de Interesse 2 </legend>
+                    <legend class="bold">Quer colocar um outro cargo no seu perfil? </legend>
                       <div>
                         <div>
-                          <label class="small" for="category_2">Categoria</label>
+                          <label class="small" for="category_2">Área</label>
                           <select id="category_2" name="category_2">
                           <option value="" selected="selected">Selecione</option>
                           <option value="1">Telemarketing</option>
@@ -79,13 +79,13 @@
                         </select>
                         </div>
                         <div>
-                          <label class="small" for="position_2">Posição</label>
+                          <label class="small" for="position_2">Cargo</label>
                           <select id="position_2" name="position_2" disabled="disabled">
                             <option value="" selected="selected">Selecione</option>
                           </select>
                         </div>
                         <div>
-                          <label class="small" for="experience_2">Experiência</label>
+                          <label class="small" for="experience_2">Quanto tempo de experiência?</label>
                           <select id="experience_2" name="experience_2" disabled="disabled">
                             <option value="" selected="selected">Selecione</option>
                             <option value="0">0</option>
@@ -101,10 +101,10 @@
                     </fieldset>
 
                     <fieldset class="third-area">
-                      <legend class="bold">Area de Interesse 3 </legend>
+                      <legend class="bold">Quer adicionar mais um cargo? </legend>
                         <div>
                           <div>
-                            <label class="small" for="category_3">Categoria</label>
+                            <label class="small" for="category_3">Área</label>
                             <select id="category_3" name="category_3">
                             <option value="" selected="selected">Selecione</option>
                             <option value="1">Telemarketing</option>
@@ -120,13 +120,13 @@
                           </select>
                           </div>
                           <div>
-                            <label class="small" for="position_3">Posição</label>
+                            <label class="small" for="position_3">Cargo</label>
                             <select id="position_3" name="position_3" disabled="disabled">
                               <option value="" selected="selected">Selecione</option>
                             </select>
                           </div>
                           <div>
-                            <label class="small" for="experience_3">Experiência</label>
+                            <label class="small" for="experience_3">Quanto tempo de experiência?</label>
                             <select id="experience_3" name="experience_3" disabled="disabled">
                               <option value="" selected="selected">Selecione</option>
                               <option value="0">0</option>
@@ -144,14 +144,14 @@
 
 <!--CAMPO SALARIO-->
             <div>
-              <label class="bold" for="salary">Pretensão salarial </label>
+              <label class="bold" for="salary">Quanto você quer ganhar por mês? </label>
               <span>R$</span>
               <input type="text" id="salary" name="salary" value="" size="60" maxlength="5" style="width: 80px;"/>
             </div>
 
 <!--CAMPO CARTEIRA MOTORISTA-->
             <div class="driver-license">
-              <label class="bold">Você tem Carteira de Motorista?<br>Se sim, qual?</label>
+              <label class="bold">Você tem Carteira de Motorista?</label>
               <div>
                 <input type="checkbox" id="driver_license_a" name="driver_license[]" value="A" />
                 <label for="driver_license_1">A - Motos </label>
@@ -184,13 +184,14 @@
             <div>
               <label class="bold" for="phone">Número de celular <span class="form-required" title="Este campo é obrigatório.">*</span></label>
               <input type="tel" id="phone" name="phone" value="" size="60" maxlength="15" style="width: 150px;">
-              <div class="description">Ex: (11) 99999-9999</div>
+              <div class="description">Ex: (11) 99999-9999<br>Digitar corretamente, para receber vagas por SMS gratuitamente.</div>
             </div>
 
 <!--CAMPO EMAIL-->
             <div>
-              <label class="bold" for="email">Email </label>
+              <label class="bold" for="email">E-mail </label>
               <input type="email" id="email" name="email" value="" size="60" maxlength="128" class="form-text" style="width: 290px;"/>
+              <!-- <div class="description">Para receber mais detalhes das vagas.</div> -->
             </div>
 
 <!--CAMPO CEP-->
@@ -320,7 +321,7 @@
 
 <!--CAMPO CPF-->
             <div>
-              <label class="bold" for="cpf">Número de CPF </label>
+              <label class="bold" for="cpf">Número do CPF </label>
               <input type="text" id="cpf" name="cpf" value="" size="60" maxlength="14" style="width: 150px;"/>
             </div>
 
